@@ -246,13 +246,6 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/material@^13.3.9":
-  version "13.3.9"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-13.3.9.tgz#efd8ab5800b654df01e36426391d31531e412425"
-  integrity sha512-FU8lcMgo+AL8ckd27B4V097ZPoIZNRHiCe3wpgkImT1qC0YwcyXZVn0MqQTTFSdC9a/aI8wPm3AbTClJEVw5Vw==
-  dependencies:
-    tslib "^2.3.0"
-
 "@angular/platform-browser-dynamic@~13.3.0":
   version "13.3.11"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-13.3.11.tgz#779b4042d009c6eb3f16410bdfcba1909bbb2b83"
@@ -4640,10 +4633,9 @@ ngx-build-plus@13.0.0:
     "@schematics/angular" "^12.0.0"
     webpack-merge "^5.0.0"
 
-ngx-dashboard-designer@2.0.2:
+"ngx-dashboard-designer@http://localhost:5555/ngx-dashboard-designer-2.0.2.tgz":
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/ngx-dashboard-designer/-/ngx-dashboard-designer-2.0.2.tgz#773df7e267df55de6b7e529b89705a91e7f1d150"
-  integrity sha512-H8qEO/RvzPTVl2nx7SWu5CbVNE47dtC7CtaTcOArnvcSygx/iSWLbHteyoXo0drYJ/nV8y6vJXqTcknI+PMaJw==
+  resolved "http://localhost:5555/ngx-dashboard-designer-2.0.2.tgz#b80a1fadf02ed4642af3d83909b61f70b4fd4c5c"
   dependencies:
     "@angular-architects/module-federation" "^14.3.10"
     "@ngx-translate/core" "^13.0.0"
