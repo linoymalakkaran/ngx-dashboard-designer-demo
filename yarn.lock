@@ -4640,9 +4640,10 @@ ngx-build-plus@13.0.0:
     "@schematics/angular" "^12.0.0"
     webpack-merge "^5.0.0"
 
-"ngx-dashboard-designer@http://localhost:5555/ngx-dashboard-designer-2.0.1.tgz":
-  version "2.0.1"
-  resolved "http://localhost:5555/ngx-dashboard-designer-2.0.1.tgz#7478135c1c21645b0df0b1154fbc27d85350f8bd"
+ngx-dashboard-designer@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ngx-dashboard-designer/-/ngx-dashboard-designer-2.0.2.tgz#773df7e267df55de6b7e529b89705a91e7f1d150"
+  integrity sha512-H8qEO/RvzPTVl2nx7SWu5CbVNE47dtC7CtaTcOArnvcSygx/iSWLbHteyoXo0drYJ/nV8y6vJXqTcknI+PMaJw==
   dependencies:
     "@angular-architects/module-federation" "^14.3.10"
     "@ngx-translate/core" "^13.0.0"
