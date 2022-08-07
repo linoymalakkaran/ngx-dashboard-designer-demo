@@ -19,9 +19,9 @@ export class DashDesignerComponent {
         icon: 'Barchart',
         description: 'Bar Chart',
         hostUrl: 'http://localhost:5203/remoteEntry.js', //'http://127.0.0.1:5555/dashboard-widgets/remoteEntry.js',
-        componentName: 'SampleBarChartComponent',
+        componentName: 'BarchartWidgetComponent',
         type: 'module',
-        exposedModule: './Component',
+        exposedModule: './BarChartWidget',
       },
     ],
   };
