@@ -310,19 +310,19 @@
   left: 0;
 }
 #DashboardDesigner ::ng-deep .widget_tab_icon:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/widget-layout-ico.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/widget-layout-ico.svg);
 }
 #DashboardDesigner ::ng-deep .layout_tab_icon:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-svg-ico.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-svg-ico.svg);
 }
 #DashboardDesigner ::ng-deep .layout_settings_icon:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/settings-ico.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/settings-ico.svg);
 }
 #DashboardDesigner ::ng-deep .save_icon:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/diskette-ico.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/diskette-ico.svg);
 }
 #DashboardDesigner ::ng-deep .menu_main_icon:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/menu-svgr-ico.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/menu-svgr-ico.svg);
 }
 #DashboardDesigner ::ng-deep .iconSize32 {
   width: 32px !important;
@@ -337,67 +337,67 @@
   height: 16px !important;
 }
 #DashboardDesigner ::ng-deep .layoutIcon-1:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-1.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-1.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-2:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-2.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-2.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-3:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-3.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-3.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-4:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-4.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-4.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-5:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-5.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-5.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-6:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-6.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-6.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-7:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-7.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-7.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-8:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-8.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-8.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-9:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-9.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-9.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-10:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-10.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-10.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-11:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-11.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-11.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-12:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-12.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-12.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-13:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-13.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-13.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-14:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-14.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-14.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-15:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-15.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-15.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-16:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-16.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-16.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-17:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-17.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-17.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-18:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-18.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-18.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-19:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-19.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-19.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-20:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-20.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-20.svg);
 }
 #DashboardDesigner ::ng-deep .layoutIcon-21:after {
-  background-image: url(ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-21.svg);
+  background-image: url(/ngx-dashboard-designer-demo/assets/dashboard-designer/images/layout-icons/layout-21.svg);
 }
 #DashboardDesigner ::ng-deep .dash-designer-accordion {
   padding: 0;
