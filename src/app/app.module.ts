@@ -23,7 +23,10 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, {
+      useHash: true,
+      relativeLinkResolution: 'legacy',
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

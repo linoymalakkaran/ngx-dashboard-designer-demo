@@ -20,6 +20,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
+            "baseHref": "/ngx-dashboard-designer-demo",
             "preserveSymlinks": true,
             "outputPath": "dist/dashboard-app",
             "index": "src/index.html",
