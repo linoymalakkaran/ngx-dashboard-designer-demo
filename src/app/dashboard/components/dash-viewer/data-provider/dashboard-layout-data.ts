@@ -75,7 +75,7 @@ export const layoutData: GridLayOutInstance = {
       hasContent: true,
       widgetOption: {
         displayName: 'Bar Chart',
-        icon: 'Barchart',
+        icon: 'bar-chart',
         description: 'Bar Chart',
         hostUrl: 'http://localhost:5203/remoteEntry.js',
         componentName: 'SampleBarChartComponent',
@@ -91,7 +91,7 @@ export const layoutData: GridLayOutInstance = {
       hasContent: true,
       widgetOption: {
         displayName: 'Bar Chart',
-        icon: 'Barchart',
+        icon: 'bar-chart',
         description: 'Bar Chart',
         hostUrl: 'http://localhost:5203/remoteEntry.js',
         componentName: 'SampleBarChartComponent',

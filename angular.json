@@ -23,6 +23,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
+            "baseHref": "/DASHBOARD/",
             "outputPath": "dist/dashboard-designer",
             "index": "src/index.html",
             "main": "src/main.ts",
