@@ -9,7 +9,7 @@ import {
 const options: Safe = {
   gridType: GridType.Fit,
   compactType: CompactType.None,
-  margin: 0,
+  margin: 2,
   outerMargin: true,
   outerMarginTop: null,
   outerMarginRight: null,
@@ -62,7 +62,7 @@ const options: Safe = {
   scrollToNewItems: false,
 };
 
-export const layoutDefaultData: IGridLayOutInstance = {
+export const editLayoutJSON: IGridLayOutInstance = {
   options: options,
   layoutName: 'Layout8',
   layoutDescription: '',

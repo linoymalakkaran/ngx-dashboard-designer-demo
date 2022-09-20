@@ -23,7 +23,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
-            "baseHref": "/DASHBOARD/",
+            "baseHref": "/ATLP/DASHBOARD/WIDGETS/",
             "outputPath": "dist/dashboard-designer",
             "index": "src/index.html",
             "main": "src/main.ts",

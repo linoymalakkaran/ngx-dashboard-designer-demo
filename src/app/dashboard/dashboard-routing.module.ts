@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashDesignerComponent } from './components/dash-designer/dash-designer.component';
-import { DashViewerComponent } from './components/dash-viewer/dash-viewer.component';
+import { DashboardDesignerComponent } from './components/dashboard-designer/dashboard-designer.component';
+import { DashboardViewerComponent } from './components/dashboard-viewer/dashboard-viewer.component';
 
 const routes: Routes = [
   {
@@ -11,11 +11,11 @@ const routes: Routes = [
   },
   {
     path: 'designer',
-    component: DashDesignerComponent,
+    component: DashboardDesignerComponent,
   },
   {
     path: 'viewer',
-    component: DashViewerComponent,
+    component: DashboardViewerComponent,
   },
 ];
 
