@@ -6,6 +6,7 @@ import {
   IGridLayOutInstance,
 } from 'ngx-dashboard-designer';
 
+
 const options: Safe = {
   gridType: GridType.Fit,
   compactType: CompactType.None,
@@ -45,10 +46,10 @@ const options: Safe = {
   emptyCellDragMaxRows: 50,
   ignoreMarginInRow: false,
   draggable: {
-    enabled: true,
+    enabled: true
   },
   resizable: {
-    enabled: false,
+    enabled: false
   },
   swap: false,
   pushItems: true,
@@ -59,7 +60,7 @@ const options: Safe = {
   displayGrid: DisplayGrid.OnDragAndResize,
   disableWindowResize: false,
   disableWarnings: false,
-  scrollToNewItems: false,
+  scrollToNewItems: false
 };
 
 export const editLayoutJSON: IGridLayOutInstance = {
@@ -82,15 +83,16 @@ export const editLayoutJSON: IGridLayOutInstance = {
           displayName: 'Bar Chart',
           icon: 'bar-chart',
           description: 'Bar Chart',
-          hostUrl:
-            'http://localhost:5203/ATLP/EN/DASHBOARD/WIDGETS/remoteEntry.js',
+          hostUrl: 'http://localhost:7287/EN/WIDGETS/dashboard-widget-13/remoteEntry.js',
+          // hostUrl:
+          //   'http://localhost:5203/ATLP/EN/DASHBOARD/V13/WIDGETS/remoteEntry.js',
           // hostUrl:
           //   'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
           componentName: 'BarchartWidgetComponent',
           type: 'module',
-          exposedModule: './BarChartWidget',
-        },
-      ],
+          exposedModule: './BarChartWidget'
+        }
+      ]
     },
     {
       x: 0,
@@ -100,20 +102,25 @@ export const editLayoutJSON: IGridLayOutInstance = {
       rows: 2,
       hasContent: true,
       widgetOptions: [
-        {
-          isMfeWidget: true,
-          displayName: 'Bar Chart',
-          icon: 'bar-chart',
-          description: 'Bar Chart',
-          hostUrl:
-            'http://localhost:5203/ATLP/EN/DASHBOARD/WIDGETS/remoteEntry.js',
-          // hostUrl:
-          //   'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
-          componentName: 'BarchartWidgetComponent',
-          type: 'module',
-          exposedModule: './BarChartWidget',
-        },
-      ],
+        // {
+        //   isMfeWidget: true,
+        //   displayName: 'Bar Chart',
+        //   icon: 'bar-chart',
+        //   description: 'Bar Chart',
+        //   hostUrl:
+        //     'http://localhost:9203/ATLP/EN/DASHBOARD/V14/WIDGETS/remoteEntry.js',
+        //   // hostUrl: 'http://localhost:3333/remoteEntry.js',
+        //   // hostUrl:
+        //   //   'http://localhost:7287/EN/WIDGETS/dashboard-widgets-14/remoteEntry.js',
+        //   // hostUrl:
+        //   //   'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
+        //   type: 'module',
+        //   // componentName: 'MySearchPageComponent',
+        //   // exposedModule: './SearchPage',
+        //   componentName: 'BarchartWidgetComponent',
+        //   exposedModule: './BarChartWidgetComponent'
+        // }
+      ]
     },
     {
       x: 1,
@@ -122,6 +129,21 @@ export const editLayoutJSON: IGridLayOutInstance = {
       cols: 1,
       rows: 2,
       hasContent: true,
+      widgetOptions: [
+        // {
+        //   isMfeWidget: true,
+        //   displayName: 'Bar Chart',
+        //   icon: 'bar-chart',
+        //   description: 'Bar Chart',
+        //   hostUrl:
+        //     'http://localhost:5203/ATLP/EN/DASHBOARD/WIDGETS/remoteEntry.js',
+        //   // hostUrl:
+        //   //   'http://localhost:7287/EN/WIDGETS/dashboard-widget-13/remoteEntry.js',
+        //   componentName: 'BarchartWidgetComponent',
+        //   type: 'module',
+        //   exposedModule: './BarChartWidget'
+        // }
+      ]
     },
     {
       x: 2,
@@ -130,6 +152,21 @@ export const editLayoutJSON: IGridLayOutInstance = {
       cols: 1,
       rows: 2,
       hasContent: true,
-    },
-  ],
+      widgetOptions: [
+        // {
+        //   isMfeWidget: true,
+        //   displayName: 'Bar Chart',
+        //   icon: 'bar-chart',
+        //   description: 'Bar Chart',
+        //   hostUrl:
+        //     'http://localhost:9203/ATLP/EN/DASHBOARD/WIDGETS/remoteEntry.js',
+        //   // hostUrl:
+        //   //   'http://localhost:7287/EN/WIDGETS/dashboard-widget-13/remoteEntry.js',
+        //   componentName: 'BarchartWidgetComponent',
+        //   type: 'module',
+        //   exposedModule: './BarChartWidget'
+        // }
+      ]
+    }
+  ]
 };

@@ -13,7 +13,7 @@ import { DashboardService } from '../../services/dashboard.service';
   styleUrls: ['./dashboard-designer.component.scss'],
 })
 export class DashboardDesignerComponent {
- editLayoutJSON: IGridLayOutInstance = editLayoutJSON;
+  editLayoutJSON: IGridLayOutInstance = editLayoutJSON;
   @ViewChild(NgxDashboardDesignerComponent)
   ngxDashboardDesigner!: NgxDashboardDesignerComponent;
   widgetOptions: IDashboardWidgetOption = {
@@ -27,9 +27,9 @@ export class DashboardDesignerComponent {
           'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
         componentName: 'BarchartWidgetComponent',
         type: 'module',
-        exposedModule: './BarChartWidget'
-      }
-    ]
+        exposedModule: './BarChartWidget',
+      },
+    ],
   };
 
   constructor(private dashboardService: DashboardService) {}
