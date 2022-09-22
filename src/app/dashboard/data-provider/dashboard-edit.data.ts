@@ -83,11 +83,7 @@ export const editLayoutJSON: IGridLayOutInstance = {
           displayName: 'Bar Chart',
           icon: 'bar-chart',
           description: 'Bar Chart',
-          hostUrl: 'http://localhost:7287/EN/WIDGETS/dashboard-widget-13/remoteEntry.js',
-          // hostUrl:
-          //   'http://localhost:5203/ATLP/EN/DASHBOARD/V13/WIDGETS/remoteEntry.js',
-          // hostUrl:
-          //   'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
+          hostUrl: 'http://localhost:7070/dashboard-widget-13/remoteEntry.js',
           componentName: 'BarchartWidgetComponent',
           type: 'module',
           exposedModule: './BarChartWidget'
@@ -102,24 +98,19 @@ export const editLayoutJSON: IGridLayOutInstance = {
       rows: 2,
       hasContent: true,
       widgetOptions: [
-        // {
-        //   isMfeWidget: true,
-        //   displayName: 'Bar Chart',
-        //   icon: 'bar-chart',
-        //   description: 'Bar Chart',
-        //   hostUrl:
-        //     'http://localhost:9203/ATLP/EN/DASHBOARD/V14/WIDGETS/remoteEntry.js',
-        //   // hostUrl: 'http://localhost:3333/remoteEntry.js',
-        //   // hostUrl:
-        //   //   'http://localhost:7287/EN/WIDGETS/dashboard-widgets-14/remoteEntry.js',
-        //   // hostUrl:
-        //   //   'https://linoymalakkaran.github.io/ngx-dashboard-designer-demo/widgetsv13/remoteEntry.js',
-        //   type: 'module',
-        //   // componentName: 'MySearchPageComponent',
-        //   // exposedModule: './SearchPage',
-        //   componentName: 'BarchartWidgetComponent',
-        //   exposedModule: './BarChartWidgetComponent'
-        // }
+        {
+          isMfeWidget: true,
+          displayName: 'Bar Chart',
+          icon: 'bar-chart',
+          description: 'Bar Chart',
+          hostUrl:
+            'http://localhost:7070/dashboard-widget-14/remoteEntry.js',
+          type: 'module',
+          // componentName: 'MySearchPageComponent',
+          // exposedModule: './SearchPage',
+          componentName: 'BarchartWidgetComponent',
+          exposedModule: './BarChartWidget'
+        }
       ]
     },
     {
