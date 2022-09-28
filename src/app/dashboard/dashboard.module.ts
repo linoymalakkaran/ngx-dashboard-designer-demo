@@ -1,19 +1,31 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardRoutingModule } from './dashboard-routing.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { DashDesignerComponent } from './components/dash-designer/dash-designer.component';
-import { DashViewerComponent } from './components/dash-viewer/components/dash-viewer.component';
-import { NgxDashboardDesignerModule } from 'ngx-dashboard-designer';
+import { DashboardDesignerComponent } from './components/dashboard-designer/dashboard-designer.component';
+import {
+  NgxDashboardDesignerModule,
+  DashboardModuleConfigModel,
+} from 'ngx-dashboard-designer';
+import { DashboardViewerComponent } from './components/dashboard-viewer/dashboard-viewer.component';
+import { MainLayoutComponent } from './components/layout/main-layout.component';
+
+const dashboardConfig: DashboardModuleConfigModel = {
+  baseAssetsPath: 'assets/dashboard-designer/',
+  fontBaseUrl: 'assets/dashboard-designer/',
+  isDynamicFontLoading: true,
+  isRemoteUrlLangEnabled: false,
+};
 
 @NgModule({
-  declarations: [DashDesignerComponent, DashViewerComponent],
+  declarations: [
+    DashboardDesignerComponent,
+    DashboardViewerComponent,
+    MainLayoutComponent,
+  ],
   imports: [
     CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
     DashboardRoutingModule,
-    NgxDashboardDesignerModule
+    NgxDashboardDesignerModule.forRoot(dashboardConfig),
   ],
 })
 export class DashboardModule {}
